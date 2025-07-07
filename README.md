@@ -6,8 +6,8 @@ A modern CLI file explorer for Linux
 ## 🚀 Install Latest Version (Debian-based systems)
 
 ```bash
-wget https://github.com/gandhardate/gexplorer/raw/main/releases/gexplorer_1.0.0_all.deb
-sudo dpkg -i gexplorer_1.0.0_all.deb
+wget https://github.com/gandhardate/gexplorer/raw/main/releases/gexplorer_1.1.0_all.deb
+sudo dpkg -i gexplorer_1.1.0_all.deb
 ```
 
 ▶️ Run it

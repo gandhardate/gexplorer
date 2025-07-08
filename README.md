@@ -39,20 +39,21 @@ gexplorer
 Inside gexplorer, you can press h at any time to view help.
 
 🕹️ Controls & Commands
-Command	Description
-[number]	:Open the file/folder with that index
-p[number]	:Preview the first 10 lines of the file
-i[number] :Show size and permission info
-d[number]	:Delete the file/folder with that index
-n	:Next page of files
-p	:Previous page
-/keyword	:Filter/search files by name
-m	:Make a new file or directory
-config	:Open config file in editor and reload
-cmd or terminal	:Enter command mode (like mini-shell)
-explore	:Exit command mode and return to browser
-q	:Quit gexplorer
-h	:Show help
+ ```
+text [number] : Open the file/folder with that index 
+p[number] : Preview the first 10 lines of the file
+i[number] : Show size and permission info
+d[number] : Delete the file/folder with that index
+n : Next page of files
+p : Previous page
+/keyword : Filter/search files by name
+m : Make a new file or directory
+config : Open config file in editor and reload
+cmd or terminal : Enter command mode (like mini-shell)
+explore : Exit command mode and return to browser
+q : Quit gexplorer
+h : Show help
+```
 
 ⚙️ Configuration
 Located at ~/.gexplorer. Default values:

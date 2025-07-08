@@ -3,7 +3,7 @@ A modern CLI file explorer for Linux
 
 # 📦 gexplorer Installer
 
-## 🚀 Install Latest Version (Debian-based systems)
+## 🚀 Install Latest Version (Debian/Ubuntu systems)
 
 ```bash
 wget https://github.com/gandhardate/gexplorer/raw/main/releases/gexplorer_1.2.0_all.deb

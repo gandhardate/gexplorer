@@ -6,8 +6,8 @@ A modern CLI file explorer for Linux
 ## 🚀 Install Latest Version (Debian-based systems)
 
 ```bash
-wget https://github.com/gandhardate/gexplorer/raw/main/releases/gexplorer_1.1.0_all.deb
-sudo dpkg -i gexplorer_1.1.0_all.deb
+wget https://github.com/gandhardate/gexplorer/raw/main/releases/gexplorer_1.2.0_all.deb
+sudo dpkg -i gexplorer_1.2.0_all.deb
 ```
 
 ▶️ Run it
@@ -19,6 +19,8 @@ gexplorer
 🔍 Explore files and folders with keyboard navigation
 
 🎨 Theming support: dark, retro, neon
+
+⚙️ Permissions & Size	i[number] to inspect file size and permissions (ls -lh style)
 
 🌿 Git-aware: displays status of files in Git repos
 
@@ -40,6 +42,7 @@ Inside gexplorer, you can press h at any time to view help.
 Command	Description
 [number]	:Open the file/folder with that index
 p[number]	:Preview the first 10 lines of the file
+i[number] :Show size and permission info
 d[number]	:Delete the file/folder with that index
 n	:Next page of files
 p	:Previous page
@@ -55,7 +58,8 @@ h	:Show help
 Located at ~/.gexplorer. Default values:
 ```
 SHOW_HIDDEN=false
-VIEW_MODE="list"     # list or tiles
-EDITOR="vim"         # or nano, micro, code, etc.
-THEME="default"      # dark, retro, neon
+VIEW_MODE="list"           # list or tiles
+EDITOR="vim"               # any terminal editor
+THEME="default"            # dark, retro, neon
+ENABLE_GIT_STATUS=false    # skip git status check in huge repos
 ```
